@@ -1,1 +1,1 @@
-release db:migrate && RAILS_ENV=development rails db:seed
+release: rails db:migrate && RAILS_ENV=development rails db:seed
