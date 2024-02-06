@@ -1,1 +1,1 @@
-release db:migrate && rails db:seed
+release db:migrate && RAILS_ENV=<ENV_NAME_HERE> rails db:seed
